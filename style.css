@@ -1,0 +1,40 @@
+body{
+  font: 'Raleway', sans-serif;
+  display:flex;
+  align-items: center;
+  margin-top: 40px;
+  flex-direction: column;
+  color: rgb(87, 85, 85);
+  text-align: center;
+  height: 100vh;
+  
+}
+h1{
+  margin-bottom: 30px;
+  font-size: 100px;
+}
+h2{
+  font-size: 40px;
+
+}
+h3{
+  
+  font-size: 35px;
+}
+input + input{
+  
+  margin-top: 30px;
+}
+.random{
+  border: 2px solid rgb(57, 55, 55);
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: transparent ;
+  font-size: 20px;
+  transition: all 0.3s;
+  border-radius: 20px;
+}
+.random:hover{
+  transform: scale(1.15);
+  cursor: pointer;
+}
